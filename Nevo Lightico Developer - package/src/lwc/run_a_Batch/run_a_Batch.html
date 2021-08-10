@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Message" icon-name="custom:custom53" if:true={message}>
+        <template if:true={message}>
+            <p>{message}</p>
+        </template>
+    </lightning-card>
+
+    <lightning-combobox
+            name="Run Batch"
+            label="Run a Batch"
+            value={value}
+            placeholder="Select Batch Class"
+            options={options}
+            onchange={handleChange} 
+            style="color:green;width:150px;"></lightning-combobox>
+
+    <br/>
+    <lightning-button  disabled={showButton} variant="brand-outline" label="Execute Batch" title="Primary action with lighter look" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    <br/>
+    <div class="slds-m-vertical_medium"> 
+       <h2>Selected Batch: <span class="slds-text-heading_small">{value}</span></h2>   
+     </div>
+</template>

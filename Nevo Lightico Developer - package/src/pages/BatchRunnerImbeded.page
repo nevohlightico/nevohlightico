@@ -1,0 +1,15 @@
+<apex:page >
+
+   <div id="lightningAppid" />
+    <script>
+    $Lightning.use("c:Batch_Run_App", function() {
+        $Lightning.createComponent("c:run_a_Batch",
+          {
+          },
+          "lightningAppid",
+          function(cmp) {
+             console.log('LWC Componenet added in VF page');
+          });
+    });
+    </script> 
+</apex:page>

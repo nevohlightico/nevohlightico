@@ -1,0 +1,21 @@
+{
+  "VisualforcePreviewerPerProject": {
+    "collapsedPages": [],
+    "expandedPages": [],
+    "customUrls": {},
+    "parameters": {}
+  },
+  "LightningPreviewerPerProject": {
+    "activeApplicationForComponent": {},
+    "collapsedBundles": [],
+    "expandedBundles": [],
+    "customUrls": {},
+    "parameters": {}
+  },
+  "CodeMapPerProject": {
+    "collapsedPanels": [
+      "Run_A_Batch_Ctrl"
+    ]
+  },
+  "SettingsVersion": 1
+}

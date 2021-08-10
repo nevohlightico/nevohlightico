@@ -1,0 +1,28 @@
+<apex:page standardController="Batch_Log__c" recordSetVar="Batch_Logs__c"   showHeader="true" sidebar="false">
+   <apex:includeLightning />    
+   <!--<apex:include pageName="BatchRunnerHome"/>-->
+   <apex:include pageName="BatchRunnerImbeded"/>
+    
+    <apex:form >
+       <apex:pageBlock title="Batch Runner">
+         
+       </apex:pageBlock>
+       <apex:pageBlock title="Batch Logs">
+          <apex:pageBlockTable value="{!Batch_Logs__c}" var="o">
+              
+             <apex:column headerValue="Name" width="7%">
+                <apex:outputLink value="/{!o.ID}"> 
+                    <apex:outputText value="{!o.name}">
+                    </apex:outputText> 
+                </apex:outputLink>
+            </apex:column>
+
+             <apex:column value="{!o.Status__c}"/>
+             <apex:column value="{!o.CreatedDate}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+
+
+
+    </apex:form>
+</apex:page>

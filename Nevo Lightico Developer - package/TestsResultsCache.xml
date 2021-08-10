@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestsResultsCache
+    LastClearTime="0001-01-01T00:00:00">
+    <TestClassesCache>
+        <TestClassCache>
+            <TestClassId>01p4L000007NCBsQAO</TestClassId>
+            <TestQueueId>7094L000000gE28QAE</TestQueueId>
+            <TestMethodsCache>
+                <TestMethodCache>
+                    <Name>fail_Test</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>getBatchList_Test</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>runBatchWithSize_Test</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+            </TestMethodsCache>
+        </TestClassCache>
+        <TestClassCache>
+            <TestClassId>01p4L000007NCBsQAO</TestClassId>
+            <TestQueueId>7094L000000gE23QAE</TestQueueId>
+            <TestMethodsCache>
+                <TestMethodCache>
+                    <Name>getBatchList_Test</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+                <TestMethodCache>
+                    <Name>runBatchWithSize_Test</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethodCache>
+            </TestMethodsCache>
+        </TestClassCache>
+    </TestClassesCache>
+    <DeletedJobsIds />
+</TestsResultsCache>
