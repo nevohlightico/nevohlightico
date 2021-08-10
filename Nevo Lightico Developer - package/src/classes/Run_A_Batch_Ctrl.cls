@@ -9,6 +9,7 @@ public class Run_A_Batch_Ctrl  {
                 batchOptions.add(new batchOption(batchClass.Name));
             }
         }
+		System.debug('hi');
 		return batchOptions;
 	
 	}
